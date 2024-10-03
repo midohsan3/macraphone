@@ -1,0 +1,1126 @@
+8.btn-primary {
+	color: $white;
+	background-color: $primary;
+	border-color: $primary;
+	&:hover {
+		color: $white;
+		background-color: #5a54f8;
+		border-color: #5a54f8;
+	}
+	&:focus,
+	&.focus {
+		box-shadow: 0 0 0 2px rgba(90, 84, 248, 0.5);
+	}
+	&.disabled,
+	&:disabled {
+		color: $white;
+		background-color: #5a54f8;
+		border-color: #5a54f8;
+	}
+	&:not(:disabled):not(.disabled) {
+		&:active,
+		&.active {
+			color: $white;
+			background-color: #5a54f8;
+			border-color: #5a54f8;
+		}
+	}
+}
+
+.show>.btn-primary.dropdown-toggle {
+	color: $white;
+	background-color: #5a54f8;
+	border-color: #5a54f8;
+}
+
+.btn-primary:not(:disabled):not(.disabled) {
+	&:active:focus,
+	&.active:focus {
+		box-shadow: 0 0 0 2px rgba(24, 193, 185, 0.1);
+	}
+}
+
+.show>.btn-primary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 2px rgba(24, 193, 185, 0.1);
+}
+
+.btn-outline-primary {
+	color: $primary;
+	background-color: transparent;
+	background-image: none;
+	border-color: $primary !important;
+	&:hover {
+		color: $white;
+		background-color: $primary;
+		border-color: #7231ce;
+	}
+	&:focus,
+	&.focus {
+		box-shadow: 0 0 0 2px rgba(5, 117, 230, 0.1);
+	}
+	&.disabled,
+	&:disabled {
+		color: $primary;
+		background-color: transparent;
+	}
+	&:not(:disabled):not(.disabled) {
+		&:active,
+		&.active {
+			color: $white;
+			background-color: $primary;
+			border-color: $primary;
+		}
+	}
+}
+
+.show>.btn-outline-primary.dropdown-toggle {
+	color: $white;
+	background-color: $primary;
+	border-color: $primary;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled) {
+	&:active:focus,
+	&.active:focus {
+		box-shadow: 0 0 0 2px rgba(5, 117, 230, 0.1);
+	}
+}
+
+.show>.btn-outline-primary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 2px rgba(5, 117, 230, 0.1);
+}
+
+.btn-link {
+	color: $primary;
+}
+
+.alert-primary {
+	color: #fcfdff;
+	background-color: $primary;
+	border-color: $primary;
+	hr {
+		border-top-color: #b7cded;
+	}
+	.alert-link {
+		color: #172b46;
+	}
+}
+
+.label-primary {
+	background-color: $primary;
+}
+
+.badge-primary {
+	color: $white;
+	background-color: $primary;
+	&[href] {
+		&:hover,
+		&:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #8135c3;
+		}
+	}
+}
+
+.bg-gradient-primary {
+	background: linear-gradient(120deg, #3ba2ff 0%, $primary 100%);
+}
+
+.bg-primary {
+	background-color: $primary !important;
+}
+
+a.bg-primary {
+	&:hover,
+	&:focus {
+		background-color: #514bee !important;
+	}
+}
+
+button.bg-primary {
+	&:hover,
+	&:focus {
+		background-color: #514bee !important;
+	}
+}
+
+.border-primary {
+	border-color: $primary !important;
+}
+
+.text-primary {
+	color: $primary !important;
+}
+
+a {
+	&.text-primary {
+		&:hover,
+		&:focus {
+			color: #5a54f8 !important;
+		}
+	}
+	&.text-dark {
+		&:hover,
+		&:focus {
+			color: $primary !important;
+		}
+	}
+}
+
+.social-box.linkedin i {
+	background: $primary;
+}
+
+.checkbox span:after,
+.user-card .card-block .activity-leval li.active {
+	background-color: $primary;
+}
+
+#count-down .clock-presenter .digit {
+	background: $primary;
+}
+
+.masthead .masthead-bg {
+	background: linear-gradient(120deg, #0f75ff 0%, $primary 100%);
+}
+
+.notifyimg {
+	background: $primary;
+}
+
+.drop-icon-wrap .drop-icon-item:hover {
+	color: $primary;
+}
+
+.dropdown-item {
+	&:hover,
+	&:focus,
+	&.active,
+	&:active {
+		color: $primary;
+	}
+}
+
+timeline__item:after {
+	border: 6px solid $primary;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+	background-color: $primary;
+}
+
+.custom-checkbox .custom-control-input {
+	&:checked~.custom-control-label::before,
+	&:indeterminate~.custom-control-label::before {
+		background-color: $primary;
+	}
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before {
+	background-color: $primary;
+}
+
+.custom-select:focus {
+	border-color: $primary;
+}
+
+.custom-file-input:focus~.custom-file-label {
+	border-color: $primary;
+	&::after {
+		border-color: $primary;
+	}
+}
+
+.custom-file-label::after {
+	background-color: $primary;
+	border-left: 1px solid $primary;
+}
+
+.custom-range {
+	&::-webkit-slider-thumb,
+	&::-moz-range-thumb,
+	&::-ms-thumb {
+		background-color: $primary;
+	}
+}
+
+.nav-link.active {
+	background-color: $primary;
+}
+
+.nav-pills {
+	.nav-link.active,
+	.show>.nav-link {
+		background-color: $primary;
+	}
+}
+
+.page-link:hover {
+	color: $primary;
+}
+
+.page-item.active .page-link {
+	background-color: $primary;
+	border-color: $primary;
+}
+
+.range.range-primary {
+	input[type="range"] {
+		&::-webkit-slider-thumb,
+		&::-moz-slider-thumb {
+			background-color: $primary;
+		}
+	}
+	output {
+		background-color: $primary;
+	}
+	input[type="range"] {
+		outline-color: $primary;
+	}
+}
+
+.nav-tabs .nav-item1 .nav-link {
+	&:hover:not(.disabled),
+	&.active {
+		background: $primary;
+	}
+}
+
+.panel.price>.panel-heading {
+	background: $primary;
+	color: $white;
+	background: $primary;
+}
+
+.heading-primary {
+	background-color: $primary;
+}
+
+.page-header .breadcrumb-item a,
+.breadcrumb-item1 a:hover,
+.panel-title1 a {
+	color: $primary;
+}
+
+.header {
+	background: linear-gradient(120deg, #0f75ff 60%, $primary 100%);
+}
+
+.header-bg {
+	background: #eef2f9;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #eef2f9, $primary);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #eef2f9, $primary);
+}
+
+.nav-tabs .nav-link {
+	&:hover:not(.disabled),
+	&.active {
+		color: $white;
+		background: $primary;
+	}
+}
+
+.navtab-wizard.nav-tabs .nav-link {
+	&.active,
+	&:hover {
+		color: $primary;
+		background: $white;
+	}
+}
+
+.admin-navbar {
+	.nav-item.active .nav-link {
+		color: $primary;
+		.icon {
+			color: $primary;
+		}
+	}
+	.nav-link {
+		&:hover,
+		&:focus,
+		&.active {
+			color: $primary;
+		}
+	}
+	.mega-dropdown .sub-item .section-label {
+		color: $primary;
+	}
+	.sub-item ul a {
+		&:active {
+			background-color: $primary;
+		}
+		&:hover,
+		&:focus {
+			color: $primary;
+			text-decoration: none;
+			background-color: #f9faff;
+		}
+	}
+}
+
+.expanel-primary {
+	border: $primary !important;
+	>.expanel-heading {
+		color: $white !important;
+		background-color: $primary !important;
+		border-color: $primary !important;
+	}
+}
+
+.error-img .form-control:focus {
+	color: $white;
+	background-color: $white-2;
+	border-color: $primary;
+}
+
+.avatar {
+	background: $primary no-repeat center/cover;
+}
+
+.spinner {
+	background: linear-gradient(120deg, #0f75ff 0%, $primary 100%);
+}
+
+.spinner-lg {
+	background-color: $primary;
+}
+
+.double-bounce1,
+.double-bounce2,
+.cube1,
+.cube2 {
+	background: linear-gradient(120deg, #0f75ff 0%, $primary 100%);
+}
+
+.lds-heart div {
+	background: $primary;
+	&:after,
+	&:before {
+		background: $primary;
+	}
+}
+
+.lds-ring div {
+	border: 6px solid $primary;
+	border-color: $primary transparent transparent transparent;
+}
+
+.lds-hourglass:after {
+	border: 26px solid $primary;
+	border-color: $primary transparent;
+}
+
+.mediaicon {
+	border: 1px solid $primary;
+	background: $primary;
+}
+
+a.chip:hover {
+	background-color: $primary;
+}
+
+.highlight .s {
+	color: $primary;
+}
+
+.selectgroup-input {
+	&:checked+.selectgroup-button {
+		border-color: $primary;
+		z-index: 1;
+		color: $primary;
+		background:$background;
+	}
+	&:focus+.selectgroup-button {
+		border-color: $primary;
+		z-index: 2;
+		color: $primary;
+		box-shadow: 0 0 0 2px rgba(105, 99, 255, 0.25);
+	}
+}
+
+.custom-switch-input {
+	&:checked~.custom-switch-indicator {
+		background: $primary;
+	}
+	&:focus~.custom-switch-indicator {
+		box-shadow: 0 0 0 2px rgba(105, 99, 255, 0.25);
+		border-color: $primary;
+	}
+}
+
+.imagecheck-input:focus~.imagecheck-figure {
+	border-color: $primary;
+	box-shadow: 0 0 0 2px rgba(105, 99, 255, 0.25);
+}
+
+.imagecheck-figure:before {
+	background: $primary url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E") no-repeat center (center / 50%) 50%;
+	color: $white;
+}
+
+.colorinput-input:focus~.colorinput-color {
+	border-color: $primary;
+	box-shadow: 0 0 0 2px rgba(105, 99, 255, 0.25);
+}
+
+.ui-datepicker .ui-datepicker-title {
+	color: $primary;
+}
+
+#back-to-top {
+	background: linear-gradient(120deg, #4f4ac7 0%, $primary 100%);
+	&:hover {
+		background: $white;
+		color: $primary;
+		border: 2px solid $primary;
+	}
+}
+
+#chat-message {
+	background: linear-gradient(120deg, #0f75ff 50%, $primary 100%);
+}
+
+.tabs-menu ul li .active {
+	background: $primary;
+}
+
+.tabs-menu1 ul li .active {
+	border: 1px solid $primary;
+	color: $primary;
+}
+
+.wideget-user-tab .tabs-menu1 ul li .active {
+	border-bottom: 2px solid $primary !important;
+}
+
+.rating-stars .rating-stars-container .rating-star {
+	&.is--active .fa-heart,
+	&.is--hover .fa-heart {
+		color: $primary;
+	}
+}
+
+.message-feed:not(.right) .mf-content {
+	background: $primary;
+	color: $white;
+	&:before {
+		border-right-color: $primary;
+	}
+}
+
+.msb-reply button {
+	background: $primary;
+}
+
+.wizard-card {
+	.moving-tab {
+		background-color: $primary !important;
+	}
+	.choice {
+		&:hover .icon,
+		&.active .icon {
+			border-color: $primary !important;
+			color: $primary !important;
+		}
+	}
+}
+
+.cal1 .clndr {
+	.clndr-table {
+		.header-days {
+			background: $primary;
+		}
+		tr .day {
+			&.today.event,
+			&.my-today.event {
+				background: $primary;
+			}
+			&.today:hover,
+			&.my-today:hover {
+				background: $primary;
+				color: $white;
+			}
+		}
+	}
+	.clndr-controls .clndr-control-button {
+		.clndr-previous-button {
+			color: $primary;
+			background: #e6f2fe;
+		}
+		.clndr-next-button {
+			color: $primary;
+			background: #e6f2fe;
+			&:hover {
+				background: $primary;
+			}
+		}
+		.clndr-previous-button:hover {
+			background: $primary;
+		}
+	}
+}
+
+.fc button {
+	background: $primary;
+}
+
+.fc-event,
+.fc-event-dot {
+	background-color: $primary;
+	color: #f1f1f1 ! important;
+}
+
+#sidebar {
+	.accordion-toggle i {
+		background: linear-gradient(120deg, #0f75ff 60%, $primary 100%);
+	}
+	ul li.active>a {
+		color: $primary;
+		&:hover {
+			color: $primary;
+		}
+	}
+	li a[aria-expanded="true"].active:before {
+		background: linear-gradient(120deg, #0f75ff 60%, $primary 100%);
+	}
+	ul li a:hover,
+	.collapse li a:hover {
+		color: $primary;
+	}
+}
+
+.sweet-alert button {
+	background-color: $primary !important;
+}
+
+.timeline__item:after {
+	border: 6px solid $primary;
+}
+
+.label-primary.arrowed:before {
+	border-right-color: $primary;
+}
+
+.widgetdate p,
+.widgetbox p,
+.datebox p {
+	border-bottom: 2px solid $primary;
+}
+
+.arrow-ribbon.bg-primary:before {
+	border-left: 15px solid $primary;
+}
+
+.arrow-ribbon2:before {
+	border-left: 24px solid $primary;
+}
+
+.badge-offer.bg-primary:after,
+.badge-offer1.bg-primary:after {
+	border-top: 12px solid $primary;
+}
+
+.social-icons li:hover {
+	background: $primary;
+	color: $white;
+}
+
+.social li a:hover,
+.footer-main a:hover,
+.footer-links a:hover {
+	color: $primary;
+}
+
+.product-tags li a:hover {
+	background: $primary;
+	border-color: $primary;
+}
+
+.counter-icon {
+	border: 1px solid $primary;
+	i {
+		color: $primary;
+	}
+}
+
+.header-main .top-bar i {
+	color: $primary;
+}
+
+.header-links li a {
+	&.active,
+	&:hover {
+		background: $primary;
+		color: $white;
+	}
+}
+
+.card-pay .tabs-menu li a.active {
+	background: $primary;
+}
+
+.item-all-cat .category-type .item-all-card img {
+	background: linear-gradient(120deg, #3ba2ff 0%, $primary 100%);
+}
+
+.item1-tabs-menu ul li .active {
+	background: $primary;
+}
+
+.items-blog-tab-heading .items-blog-tab-menu li .active {
+	background: $primary;
+	color: $white;
+}
+
+.item2-gl-nav .item2-gl-menu li .active {
+	color: $primary;
+}
+
+.item-all-cat .item-all-card:hover .item-all-text h5 {
+	color: $primary !important;
+}
+
+.carousel-indicators li.active {
+	color: $white;
+	background: $primary;
+}
+
+.item-cards7-ic.realestate-list li a:hover {
+	color: $primary;
+}
+
+.item1-links a {
+	&:hover {
+		color: $primary;
+	}
+	&.active {
+		background: #f9faff;
+		color: $primary;
+		border-right: 2px solid $primary;
+	}
+}
+
+.settings-tab .tabs-menu li a.active {
+	background: $primary;
+}
+
+.ads-tabs .tabs-menus ul li .active {
+	background: $primary;
+	color: $white;
+}
+
+.showmore-button-inner {
+	border: 1px solid $primary;
+	color: $primary;
+}
+
+.owl-nav button,
+.owl-carousel:hover .owl-nav button {
+	color: $primary !important;
+}
+
+.owl-nav>div i {
+	color: $primary;
+}
+
+.tabs-menu ul.eductaional-tabs li .active {
+	background: $primary;
+}
+
+.register-right .nav-tabs .nav-link:hover {
+	background: $primary;
+	color: $white;
+}
+
+.gradient-icon {
+	background: linear-gradient(120deg, #3ba2ff 0%, $primary 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.axgmap-img {
+	border: 3px solid $primary;
+}
+
+.horizontalMenu>.horizontalMenu-list>li {
+	> {
+		.horizontal-megamenu .menu_form input {
+			&[type="submit"],
+			&[type="button"] {
+				background-color: $primary;
+				color: $white;
+			}
+		}
+		a.active {
+			background-color: $primary;
+			color: $white;
+		}
+	}
+	&:hover>a {
+		background-color: $primary;
+		color: $white;
+	}
+	>ul.sub-menu>li {
+		&:hover>a {
+			background-color: $primary;
+			color: $white;
+		}
+		>ul.sub-menu>li {
+			&:hover>a,
+			>ul.sub-menu>li:hover a {
+				background-color: $primary;
+				color: $white;
+			}
+		}
+	}
+}
+
+code {
+	color: $primary;
+}
+
+#gdpr-cookie-message {
+	h4,
+	h5 {
+		color: $primary;
+	}
+	a {
+		color: $primary;
+		border-bottom: 1px solid $primary;
+		&:hover {
+			border-bottom: 1px solid $primary;
+			transition: all 0.3s ease-in;
+			color: $primary;
+		}
+	}
+}
+
+button#gdpr-cookie-advanced {
+	color: $white;
+	background-color: $primary !important;
+}
+
+.ui-widget-header,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	background: $primary;
+}
+
+.side-menu li a.active:before {
+	background: linear-gradient(120deg, $primary 60%, #2ddcd3 100%);
+	box-shadow: 0px 0px 14px 0px $primary;
+}
+
+.app-sidebar {
+	.side-menu__item.active {
+		color: $primary !important;
+		&:hover {
+			color: $primary !important;
+		}
+	}
+	.side-menu li {
+		&.active>a,
+		a.active {
+			color: $primary;
+		}
+	}
+	.slide-menu li.active>a {
+		color: $primary;
+	}
+	.side-menu li {
+		ul li a:hover,
+		a:hover,
+		&.active>a,
+		a.active {
+			color: $primary;
+		}
+	}
+	.slide-menu li.active>a,
+	.side-menu li a:hover {
+		color: $primary;
+	}
+}
+
+.side-menu li a.active:before {
+	background: linear-gradient(120deg, $primary, #2ddcd3 100%);
+	box-shadow: 0px 0px 14px 0px $primary;
+}
+
+.navtab-wizard.nav-tabs .nav-link {
+	&.active,
+	&:hover {
+		color: $white;
+		background: $primary;
+	}
+}
+
+.form-inline .nav-search .btn {
+	border: 2px solid $primary;
+}
+
+.wrapper>h1 span {
+	border-bottom: 2px solid $primary;
+	color: $primary;
+}
+
+.tab_wrapper {
+	>ul li.active {
+		border-color: $primary;
+		background: $primary;
+		color: $white;
+	}
+	.controller span {
+		background: $primary;
+	}
+	.content_wrapper .accordian_header.active {
+		color: $primary;
+		&:after {
+			background: $primary;
+		}
+		.arrow {
+			border-top: 3px solid $primary;
+			border-left: 3px solid $primary;
+		}
+	}
+	&.left_side>ul li.active:after,
+	&.right_side>ul li.active:after {
+		background: $primary;
+	}
+}
+
+.addui-slider .addui-slider-track {
+	.addui-slider-range,
+	.addui-slider-handle:after {
+		background: $primary;
+	}
+}
+
+.accordionjs .acc_section.acc_active>.acc_head {
+	background: $primary;
+}
+
+.perfect-datetimepicker tbody td.selected {
+	border: 1px solid $primary;
+	background-color: $primary;
+}
+
+div.conv-form-wrapper div {
+	&.options div.option {
+		border: 1px solid $primary;
+		color: $primary;
+	}
+	&#messages div.message.from {
+		background: $primary;
+	}
+	&.options div.option.selected {
+		background: $primary;
+		color: $white;
+	}
+}
+
+form.convFormDynamic button.submit {
+	border: 1px solid $primary;
+	background: $primary;
+	&:hover {
+		background: $primary;
+		color: $white;
+	}
+}
+
+.exzoom {
+	.exzoom_nav .exzoom_nav_inner span.current {
+		border: 1px solid $primary;
+	}
+	.exzoom_btn a {
+		/*border: 1px solid $primary;*/
+		color: $primary;
+	}
+}
+
+.prev:hover {
+	transform: translate(-5px, 0px);
+	color: $primary !important;
+}
+
+.next:hover {
+	transform: translate(5px, 0);
+	color: $primary !important;
+}
+
+.g_f-s {
+	.prev:hover i {
+		transform: translate(-5px, 0px);
+		color: $primary;
+	}
+	.next:hover i {
+		transform: translate(5px, 0px);
+		color: $primary;
+	}
+	.close-button>*:hover {
+		color: $primary;
+	}
+}
+
+.horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu .link-list li a:hover {
+	color: $primary;
+}
+
+.register {
+	background: linear-gradient(120deg, #4f4ac7 0%, $primary 100%);
+}
+
+.btnRegister {
+	background: $primary;
+}
+
+.register .nav-tabs .nav-link.active {
+	color: $primary;
+	border: 1px solid $primary;
+}
+
+.pretty {
+	input:checked~.state.p-primary label:after,
+	&.p-toggle .state.p-primary label:after {
+		background-color: $primary !important;
+	}
+	input:checked~.state.p-primary-o label:before,
+	&.p-toggle .state.p-primary-o label:before {
+		border-color: $primary;
+	}
+	input:checked~.state.p-primary-o {
+		.icon1,
+		.svg,
+		svg {
+			color: $primary;
+			stroke: $primary;
+		}
+	}
+	&.p-toggle .state.p-primary-o {
+		.icon1,
+		.svg,
+		svg {
+			color: $primary;
+			stroke: $primary;
+		}
+	}
+	&.p-default:not(.p-fill) input:checked~.state.p-primary-o label:after {
+		background-color: $primary !important;
+	}
+	&.p-switch {
+		input:checked~.state.p-primary:before {
+			border-color: $primary;
+		}
+		&.p-fill input:checked~.state.p-primary:before {
+			background-color: $primary !important;
+		}
+	}
+}
+
+.owl-carousel button.owl-dot {
+	background: rgba(105, 99, 255, 0.3) !important;
+	&.active {
+		background: rgb(105, 99, 255) !important;
+	}
+}
+
+.bg-background:before,
+.bg-background2:before,
+.bg-background-color:before {
+	background: linear-gradient(to right, rgba(59, 162, 255, 0.9), rgba(105, 99, 255, 0.8));
+}
+
+.bg-background3:before {
+	background: linear-gradient(to right, rgba(59, 162, 255, 0.8), rgba(105, 99, 255, 0.7));
+}
+
+.slider-header .item:before {
+	background: linear-gradient(to right, rgba(59, 162, 255, 0.9), rgba(105, 99, 255, 0.8));
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+	box-shadow: 0 0 0 2px rgba(105, 99, 255, 0.25);
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+	box-shadow: 0 0 0 1px #f9faff, 0 0 0 2px rgba(105, 99, 255, 0.25);
+}
+
+.custom-file-input:focus~.custom-file-label {
+	box-shadow: 0 0 0 2px rgba(105, 99, 255, 0.25);
+}
+
+.custom-range {
+	&::-webkit-slider-thumb:focus,
+	&::-moz-range-thumb:focus,
+	&::-ms-thumb:focus {
+		outline: none;
+		box-shadow: 0 0 0 1px #f9faff, 0 0 0 2px rgba(105, 99, 255, 0.25);
+	}
+}
+
+.error-img .form-control:focus {
+	outline: 0;
+	box-shadow: 0 0 0 2px rgba(105, 99, 255, 0.25);
+}
+
+.selectize-input.focus {
+	border-color: $blue;
+	box-shadow: 0 0 0 2px rgba(105, 99, 255, 0.25);
+}
+
+.item-card:hover .item-card-desc:before,
+.item-card7-imgs:hover a,
+.item-card2-img:hover a {
+	background: linear-gradient(to right, rgba(59, 162, 255, 0.7), rgba(105, 99, 255, 0.7));
+}
+
+.countdown-timer-wrapper .timer .timer-wrapper .time {
+	background: linear-gradient(to right, rgba(59, 162, 255, 0.8), rgba(105, 99, 255, 0.7));
+}
+
+.app-sidebar {
+	.side-menu__item.active {
+		background: linear-gradient(to right, rgb(59, 162, 255), rgb(105, 99, 255)) !important;
+		color: $white !important;
+		&:hover {
+			background: linear-gradient(to right, rgb(59, 162, 255), rgb(105, 99, 255)) !important;
+			color: $white !important;
+		}
+	}
+	&:before {
+		background: linear-gradient(to right, rgba(59, 162, 255, 0.9), rgba(105, 99, 255, 0.8));
+	}
+}
+
+.app-sidebar-footer {
+	background: linear-gradient(to right, rgba(59, 162, 255, 0.9), rgba(105, 99, 255, 0.8));
+}
+
+.masthead .masthead-bg {
+	background: linear-gradient(to right, rgb(59, 162, 255), rgb(105, 99, 255)) !important;
+}
+
+@media (max-width: 992px) {
+	.search-show .nav-search {
+		background: linear-gradient(to right, rgb(105, 99, 255), rgb(59, 162, 255));
+	}
+}
+
+@media (max-width: 992px) {
+	.nav-item.with-sub .sub-item {
+		border-top: 2px solid $primary;
+	}
+}
+
+@media (max-width: 480px) {
+	.zoom-container .arrow-ribbon2:before {
+		border-top: 17px solid transparent;
+		border-left: 17px solid $primary;
+		border-bottom: 17px solid transparent;
+	}
+}

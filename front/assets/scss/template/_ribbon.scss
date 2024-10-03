@@ -1,0 +1,329 @@
+.arrow-ribbon-2 {
+	color: #FFF;
+	padding: 3px 8px;
+	position: absolute;
+	z-index: 99;
+	font-size: 20px;
+	&:before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		right: -24px;
+		border-top: 16px solid transparent;
+		border-left: 24px solid $primary;
+		border-bottom: 16px solid transparent;
+		width: 0;
+	}
+}
+
+
+/*----Ribbon---*/
+
+.ribbone {
+	width: 100%;
+	position: relative;
+	background-size: cover;
+	text-transform: uppercase;
+	color: $white;
+}
+
+@media (max-width: 500px) {
+	.ribbone {
+		width: 100%;
+	}
+}
+
+.ribbon1 {
+	position: absolute;
+	top: -6.1px;
+	left: 10px;
+	&:after {
+		position: absolute;
+		content: "";
+		width: 0;
+		height: 0;
+		border-left: 20px solid transparent;
+		border-right: 24px solid transparent;
+		border-top: 13px solid #F8463F;
+	}
+	span {
+		position: relative;
+		display: block;
+		text-align: center;
+		background: #F8463F;
+		font-size: 14px;
+		line-height: 1;
+		padding: 12px 8px 10px;
+		border-top-right-radius: 8px;
+		&:before,
+		&:after {
+			position: absolute;
+			content: "";
+		}
+		&:before {
+			height: 6px;
+			width: 6px;
+			left: -6px;
+			top: 0;
+			background: #F8463F;
+		}
+		&:after {
+			height: 6px;
+			width: 8px;
+			left: -8px;
+			top: 0;
+			border-radius: 8px 8px 0 0;
+			background: #C02031;
+		}
+	}
+}
+
+
+/*-Ribbon Styles--*/
+
+.arrow-ribbon {
+	color: #FFF;
+	padding: 2px 8px;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	z-index: 99;
+	font-size: 18px;
+	&.bg-purple:before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		right: -15px;
+		border-top: 15px solid transparent;
+		border-left: 15px solid $purple;
+		border-bottom: 15px solid transparent;
+		width: 0;
+	}
+	&.bg-danger:before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		right: -15px;
+		border-top: 15px solid transparent;
+		border-left: 15px solid $danger;
+		border-bottom: 15px solid transparent;
+		width: 0;
+	}
+	&.bg-primary:before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		right: -15px;
+		border-top: 15px solid transparent;
+		border-bottom: 15px solid transparent;
+		width: 0;
+	}
+	&.bg-secondary:before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		right: -15px;
+		border-top: 15px solid transparent;
+		border-left: 15px solid $secondary;
+		border-bottom: 15px solid transparent;
+		width: 0;
+	}
+	&.bg-success:before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		right: -15px;
+		border-top: 15px solid transparent;
+		border-left: 15px solid $success;
+		border-bottom: 15px solid transparent;
+		width: 0;
+	}
+	&.bg-info:before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		right: -15px;
+		border-top: 15px solid transparent;
+		border-left: 15px solid #00d6e6;
+		border-bottom: 15px solid transparent;
+		width: 0;
+	}
+	&.bg-warning:before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		right: -15px;
+		border-top: 15px solid transparent;
+		border-left: 15px solid $yellow;
+		border-bottom: 15px solid transparent;
+		width: 0;
+	}
+	&.bg-pink:before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		right: -15px;
+		border-top: 15px solid transparent;
+		border-left: 15px solid $secondary;
+		border-bottom: 15px solid transparent;
+		width: 0;
+	}
+}
+
+.arrow-ribbon2 {
+	color: #FFF;
+	padding: 3px 8px;
+	position: absolute;
+	top: 10px;
+	left: -1px;
+	z-index: 99;
+	font-size: 30px;
+	&:before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		content: "";
+		right: -24px;
+		border-top: 24px solid transparent;
+		border-bottom: 24px solid transparent;
+		width: 0;
+	}
+}
+
+
+/* common */
+
+.ribbon {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 10;
+}
+
+.power-ribbon {
+	width: 56px;
+	height: 56px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 10;
+	span {
+		position: absolute;
+		display: block;
+		width: 82px;
+		padding: 8px 0;
+		color: $white;
+		font: 500 16px/1 'Lato', sans-serif;
+		text-shadow: 0 1px 1px $black-2;
+		text-transform: capitalize;
+		text-align: center;
+	}
+}
+
+.power-ribbon-top-left {
+	span {
+		right: -5px;
+		top: 1px;
+		transform: rotate(-45deg);
+		i {
+			transform: rotate(45deg);
+			padding-top: 2px;
+			padding-left: 7px;
+		}
+	}
+	top: -6px;
+	left: -9px;
+}
+
+.ribbon {
+	&::before,
+	&::after {
+		position: absolute;
+		z-index: -1;
+		content: '';
+		display: block;
+		border: 5px solid;
+	}
+	span {
+		position: absolute;
+		display: block;
+		width: 225px;
+		padding: 8px 0;
+		box-shadow: 0 5px 10px $black-1;
+		color: $white;
+		text-shadow: 0 1px 1px $black-2;
+		text-transform: capitalize;
+		text-align: center;
+	}
+}
+
+
+/* top left*/
+
+.ribbon-top-left {
+	top: -10px;
+	left: -10px;
+	&::before,
+	&::after {
+		border-top-color: transparent;
+		border-left-color: transparent;
+	}
+	&::before {
+		top: 0;
+		right: 50px;
+	}
+	&::after {
+		bottom: 50px;
+		left: 0;
+	}
+	span {
+		right: -8px;
+		top: 30px;
+		transform: rotate(-45deg);
+	}
+}
+
+
+/* top right*/
+
+.ribbon-top-right {
+	top: -10px;
+	right: -10px;
+	&::before,
+	&::after {
+		border-top-color: transparent;
+		border-right-color: transparent;
+	}
+	&::before {
+		top: 0;
+		left: 36px;
+	}
+	&::after {
+		bottom: 36px;
+		right: 0;
+	}
+	span {
+		left: -8px;
+		top: 30px;
+		transform: rotate(45deg);
+	}
+}

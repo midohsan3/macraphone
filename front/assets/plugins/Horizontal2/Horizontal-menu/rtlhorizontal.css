@@ -1,0 +1,105 @@
+.rtl .desktoplogo {
+	float:right;
+}
+.rtl .horizontalMenu {
+	float: left;
+}
+.rtl .horizontalMenu>.horizontalMenu-list>li {
+	float: right;
+}
+@media (min-width:1024px){
+	.rtl .horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu .link-list{
+		border-right:1px solid #e8ebf3;
+		border-left:0;
+	}
+	.rtl .horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu .link-list:first-child{
+		border:0
+	}
+}
+.rtl .horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu .link-list li a {
+	text-align: right;
+}
+.rtl .horizontalMenu>.horizontalMenu-list>li>.horizontal-megamenu .link-list li {
+	text-align: right;
+}
+.rtl .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>a {
+    text-align:right;
+}
+.rtl .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>ul.sub-menu {
+	right: 100%;
+}
+.rtl .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>ul.sub-menu>li>a {
+	text-align: right;
+}
+.rtl .horizontalMenu-list .sub-menu:before, .horizontalMenu-list .sub-menu:after, .horizontalMenu-list .halfdiv:before, .horizontalMenu-list .halfdiv:after{
+	right:12px;
+	left: auto;
+}
+.rtl .animated-arrow {
+	cursor: pointer;
+	padding: 16px 19px 16px 31px;
+	margin:11px 0 0 15px;
+}
+@media only screen and (max-width: 991px){
+.rtl .callusbtn {
+    left: 5px;
+	right:auto;
+}
+}
+@media only screen and (max-width: 991px){
+.animated-arrow {
+    right: 0;
+	left:auto;
+}
+}
+ .active .horizontalMenu>.horizontalMenu-list {
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	margin-right: 0;
+	margin-left:auto;
+}
+@media only screen and (max-width: 991px){
+.overlapblackbg {
+	left: 0;
+    right: auto !important;
+}
+}
+@media only screen and (max-width: 991px){
+.horizontalMenu>.horizontalMenu-list>li>a {
+    text-align: right;
+}
+}
+.active .horizontalMenucontainer {
+	margin-right: 240px;
+	margin-left:0;
+}
+@media (max-width: 992px){
+.top-bar .top-bar-right {
+    text-align: center;
+    display: block !important;
+}
+}
+@media (max-width: 1024px) and (min-width: 992px){
+.top-bar .top-bar-right .contact {
+    border-left: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    margin: 12px 0 !important;
+}
+}
+@media (max-width: 1024px) and (min-width: 992px){
+.top-bar .top-bar-left {
+    float: none !important;
+    text-align: center;
+    margin: 0 auto;
+}
+}
+@media (max-width: 568px){
+.top-bar .top-bar-right .socials li {
+    float: right !important;
+    margin: 9px 11px !important;
+}
+}

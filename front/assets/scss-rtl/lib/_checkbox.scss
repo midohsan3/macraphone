@@ -1,0 +1,68 @@
+/*------ Checkbox style -----*/
+
+.checkbox {
+	font-weight: normal;
+	position: relative;
+	display: block;
+	line-height: 18px;
+  
+	span {
+	  padding-left: 15px;
+  
+	  &:empty {
+		float: left;
+	  }
+  
+	  &:before, &:after {
+		line-height: 18px;
+		position: absolute;
+	  }
+  
+	  &:before {
+		content: '';
+		width: 16px;
+		height: 16px;
+		background-color: #f9faff;
+		border: 1px solid #e8ebf3;
+		top: 1px;
+		left: 0;
+	  }
+  
+	  &:after {
+		top: 1px;
+		left: 0;
+		width: 16px;
+		height: 16px;
+		content: '\f00c';
+		font-family: 'FontAwesome';
+		font-size: 9px;
+		text-align: center;
+		color: $white;
+		line-height: 17px;
+		display: none;
+	  }
+	}
+  
+	input[type='checkbox'] {
+	  opacity: 0;
+	  margin: 0 5px 0 0;
+  
+	  &:checked + span:after {
+		display: block;
+	  }
+  
+	  &[disabled] + span {
+		opacity: .75;
+  
+		&:before, &:after {
+		  opacity: .75;
+		}
+	  }
+	}
+  }
+  
+  .checkbox-inline {
+	display: inline-block;
+  }
+  
+  /*------ Checkbox style -----*/
